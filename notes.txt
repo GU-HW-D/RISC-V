@@ -1,0 +1,7 @@
+Un générateur automatique de dépendances vhdl, qui détermine les composants et 
+architectures utilisées de manière récursive et compile toutes ces dépendances
+
+Pour que cela fonctionne il faut
+- que le nommage des fichiers suive un standard (nom_composant.vhdl, nom_composant_tb.vhdl, etc)
+- être capable de déterminer toutes les dépendances d'un fichiers
+- appliquer cela de manière récursive
